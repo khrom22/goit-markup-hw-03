@@ -42,6 +42,8 @@ img{
 .header-container {
   display: flex;
   align-items: center;
+
+  border-bottom: 1px solid #ECECEC;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -103,8 +105,12 @@ img{
 /*hero*/
 .hero {
   background-color: var(--dark-bg-cl);
+  padding-top: 200px ;
+  padding-bottom: 200px;
+  
 }
 .hero-title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -113,6 +119,8 @@ img{
   text-transform: uppercase;
   color: var(--light-bg-cl);
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   cursor: pointer;
@@ -129,6 +137,9 @@ img{
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 11px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title:hover,
 .hero-title:focus {
@@ -142,6 +153,9 @@ img{
 .benefits-list {
   display: flex;
   gap: 30px;
+}
+.benefits-list-item{
+  width: 270px;
 }
 .benefits-title {
   color: var(--main-tx-cl);
@@ -160,6 +174,7 @@ img{
 }
 
 /*work*/
+
 .work-title {
   color: var(--main-tx-cl);
   font-weight: 700;
@@ -173,8 +188,7 @@ img{
 .work-list {
   display: flex;
   gap: 30px;
-  padding-left: 0;
-  padding-bottom: 94px;
+ 
 }
 /*tem*/
 .team {
@@ -199,6 +213,10 @@ img{
 .team-list-item {
   background-color: var(--light-bg-cl);
 }
+.team-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name-worker {
   color: var(--main-tx-cl);
   font-weight: 500;
@@ -206,9 +224,8 @@ img{
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
-  padding-top: 30px;
   margin-bottom: 10px;
+
 }
 .profession {
   color: var(--seccond-tx-cl);
@@ -216,11 +233,13 @@ img{
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+  
 }
 /* footer*/
 .footer {
   background-color: var(--dark-bg-cl);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-link {
   color: #ffffff;
@@ -230,6 +249,8 @@ img{
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  margin-bottom: 20px;
 }
 .footer-logo {
   color: var(--cl-active);
@@ -245,6 +266,8 @@ img{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+
+  margin-bottom: 9px;
 }
 .footer-contacts {
   font-style: normal;
@@ -254,6 +277,8 @@ img{
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  margin-bottom: 9px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -266,7 +291,7 @@ img{
 }
 .filter-list {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
   gap: 8px;
 }
@@ -279,6 +304,7 @@ img{
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -309,7 +335,7 @@ border-right: 1px solid #EEEEEE;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
+ 
 }
 .card-variety {
   color: var(--seccond-tx-cl);
@@ -317,7 +343,7 @@ border-right: 1px solid #EEEEEE;
   line-height: 1.88;
   letter-spacing: 0.03em;
 
-  padding-bottom: 20px;
+ 
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
