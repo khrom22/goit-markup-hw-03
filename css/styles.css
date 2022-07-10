@@ -144,14 +144,10 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-.hero-title:hover,
-.hero-title:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--cl-active);
-}
 
 /*Переваги*/
 .benefits {
+  padding-bottom: 0;
 }
 .benefits-list {
   display: flex;
@@ -193,7 +189,7 @@ img{
   gap: 30px;
  
 }
-/*tem*/
+/*team*/
 .team {
   background-color: var(--secondary-bg-cl);
 }
@@ -253,7 +249,7 @@ img{
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  margin-bottom: 20px;
+
 }
 .footer-logo {
   color: var(--cl-active);
@@ -270,9 +266,12 @@ img{
   letter-spacing: 0.03em;
   color: #ffffff;
 
+  margin-top: 20px;
   margin-bottom: 9px;
+  
 }
 .footer-contacts {
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -283,6 +282,7 @@ img{
 
   margin-bottom: 9px;
 }
+
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--cl-active);
@@ -308,6 +308,8 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+
+  border: none;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
